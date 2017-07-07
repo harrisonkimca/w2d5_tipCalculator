@@ -14,6 +14,7 @@
 		882D122B1F0FE11D0074D624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D12291F0FE11D0074D624 /* LaunchScreen.storyboard */; };
 		882D12361F0FE11D0074D624 /* w2d5_tipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12351F0FE11D0074D624 /* w2d5_tipCalculatorTests.m */; };
 		882D12421F0FEB980074D624 /* TipperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12411F0FEB980074D624 /* TipperViewController.m */; };
+		882D12451F0FF4920074D624 /* Tipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12441F0FF4920074D624 /* Tipper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		882D12371F0FE11D0074D624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		882D12401F0FEB980074D624 /* TipperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipperViewController.h; sourceTree = "<group>"; };
 		882D12411F0FEB980074D624 /* TipperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipperViewController.m; sourceTree = "<group>"; };
+		882D12431F0FF4920074D624 /* Tipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tipper.h; sourceTree = "<group>"; };
+		882D12441F0FF4920074D624 /* Tipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tipper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				882D121F1F0FE11D0074D624 /* AppDelegate.m */,
 				882D12401F0FEB980074D624 /* TipperViewController.h */,
 				882D12411F0FEB980074D624 /* TipperViewController.m */,
+				882D12431F0FF4920074D624 /* Tipper.h */,
+				882D12441F0FF4920074D624 /* Tipper.m */,
 				882D12241F0FE11D0074D624 /* Main.storyboard */,
 				882D12271F0FE11D0074D624 /* Assets.xcassets */,
 				882D12291F0FE11D0074D624 /* LaunchScreen.storyboard */,
@@ -216,6 +221,7 @@
 				882D12421F0FEB980074D624 /* TipperViewController.m in Sources */,
 				882D12201F0FE11D0074D624 /* AppDelegate.m in Sources */,
 				882D121D1F0FE11D0074D624 /* main.m in Sources */,
+				882D12451F0FF4920074D624 /* Tipper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

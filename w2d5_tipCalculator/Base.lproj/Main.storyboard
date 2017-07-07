@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vea-ad-P2m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vea-ad-P2m">
                                 <rect key="frame" x="87" y="140" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="pxn-RR-oEe"/>
@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter bill amount" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xQZ-XM-eUQ">
-                                <rect key="frame" x="87" y="250" width="200" height="30"/>
+                                <rect key="frame" x="87" y="263" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="fct-mz-4RU"/>
                                     <constraint firstAttribute="height" constant="30" id="v72-Fl-cPY"/>
@@ -63,12 +63,14 @@
                                     <action selector="caculateTipButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ReF-TH-Rzs"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-dn-bLR">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-dn-bLR">
                                 <rect key="frame" x="112.5" y="414.5" width="150" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FNz-MF-naO"/>
                                     <constraint firstAttribute="width" constant="146" id="p1M-2o-EL2"/>
                                 </constraints>
+                                <color key="minimumTrackTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="adjustTipPercentage:" destination="BYZ-38-t0r" eventType="valueChanged" id="cXb-Bc-WrR"/>
                                 </connections>
@@ -79,9 +81,9 @@
                             <constraint firstItem="Vea-ad-P2m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="7" id="ANi-D6-IAh"/>
                             <constraint firstItem="Vea-ad-P2m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FoR-Ap-BiC"/>
                             <constraint firstItem="Pju-mo-ZfD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HQg-9V-olZ"/>
-                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="bottom" secondItem="xQZ-XM-eUQ" secondAttribute="top" multiplier="0.08" id="Jm2-98-aao"/>
                             <constraint firstItem="PDW-uJ-hQE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NCb-z8-m8a"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PDW-uJ-hQE" secondAttribute="bottom" multiplier="1.25" constant="8" symbolic="YES" id="O2n-8o-MBN"/>
+                            <constraint firstItem="Pju-mo-ZfD" firstAttribute="top" secondItem="xQZ-XM-eUQ" secondAttribute="bottom" constant="25" id="bLw-kz-JVb"/>
                             <constraint firstItem="ZIt-dn-bLR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l3U-6j-z7I"/>
                             <constraint firstItem="Pju-mo-ZfD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mFf-qu-Hlt"/>
                             <constraint firstItem="xQZ-XM-eUQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rKm-1g-mFs"/>
